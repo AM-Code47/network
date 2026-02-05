@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us - AM NETWORK SERVICES</title>
+<style>
+    body { margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; }
+    header {
+        background-color: #1A1A2E;
+        padding: 40px 20px;
+        text-align: center;
+        color: white;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap; 
+        background-color: #1A1A2E;
+        min-height: 80vh;
+    }
+
+    nav {
+        flex: 1 1 250px;
+        max-width: 300px;
+        background-color: #16213E;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    nav ul { list-style: none; padding: 0; }
+    nav li { margin-bottom: 15px; }
+
+    article {
+        flex: 3 1 400px;
+        padding: 25px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+    }
+
+    .contact-form input, .contact-form textarea {
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+        outline-color: #FF9900;
+    }
+
+    footer {
+        background-color: #1A1A2E;
+        padding: 20px;
+        text-align: center;
+        color: #E9ECEF;
+        clear: both;
+    }
+
+    @media (max-width: 768px) {
+        nav { max-width: 100%; order: 2; }
+        article { order: 1; }
+        header h1 { font-size: 40px !important; }
+        .contact-form input, .contact-form textarea { max-width: 100% !important;}
+    }
+</style>
+</head>
+<body bgcolor="#1A1A2E">
+
+<header>
+    <hr>
+    <h1 style="background-color:rgb(228, 192, 144); color: #16213E; padding: 10px 30px; font-size: 50px; border-radius: 5px; margin: 10px 0;">Contact Us</h1>
+    <hr>
+</header>
+
+<section>
+    <nav>
+        <fieldset style="border: 1px solid rgba(255,255,255,0.2); padding: 20px;">
+            <ul>
+                <li><a href="index.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF !important; text-decoration: none !important; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Index</a></li>
+                <li><a href="about.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF !important; text-decoration: none !important; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">About</a></li>
+                <li><a href="services.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF !important; text-decoration: none !important; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Services</a></li>
+                <li><a href="contact.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF !important; text-decoration: none !important; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Contact</a></li>
+                <hr style="border: 0.5px solid rgba(255,255,255,0.1); margin: 20px 0;">
+                <p style="color: #A2A8D3; font-size: 14px;">Connect with our expert team for fast and secure IT solutions.</p>
+                <li><a href="regstration.html" style="background-color: #FF9900; color: white; padding: 12px; text-decoration: none; border-radius: 5px; display: block; text-align: center; font-weight: bold;">Register Today</a></li>
+            </ul>
+        </fieldset>
+    </nav>
+
+    <article>
+        <fieldset style="border: 1px solid #ddd; padding: 25px; border-radius: 8px;">
+            <h2 style="color: #16213E; border-bottom: 3px solid #FF9900; display: inline-block; padding-bottom: 5px; text-transform: uppercase; margin-top: 0;">
+                Get In Touch
+            </h2>
+            <p style="margin-top: 15px; color: #555;">Ready to start your project? Use the form below or reach us via our contact details.</p>
+
+            <div style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 20px;">
+                
+                <div style="flex: 1.5; min-width: 100px; background: #f8f9fa; padding: 25px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <h3 style="color: #16213E; margin-top: 0;">Send us a Message</h3>
+                    <form action="#" method="post" class="contact-form" style="display: flex; flex-direction: column; gap: 15px;">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="How can we help you?" rows="5" required></textarea>
+                        <button type="submit" style="background-color: #FF9900; color: white; border: none; padding: 15px; font-weight: bold; border-radius: 5px; cursor: pointer; transition: 0.3s; font-size: 1rem;">SEND MESSAGE</button>
+                    </form>
+                </div>
+
+                <div style="flex: 1; min-width: 250px; display: flex; flex-direction: column; gap: 20px;">
+                    
+                    <div style="background: #16213E; color: white; padding: 20px; border-radius: 10px;">
+                        <h4 style="margin: 0 0 10px 0; color: #FF9900;">Main Office</h4>
+                        <p style="margin: 0; font-size: 0.95rem; line-height: 1.6;">
+                            <strong>AM Network Services</strong><br>
+                            Dodoma City Centre<br>
+                            P.O. Box 12345, Dodoma, Tanzania
+                        </p>
+                    </div>
+
+                    <div style="border: 1px solid #eee; padding: 20px; border-radius: 10px; background: #fff;">
+                        <h4 style="margin: 0 0 10px 0; color: #16213E;">Contact Information</h4>
+                        <p style="margin: 8px 0; font-size: 0.9rem;">📧 <strong>Email:</strong> emanuelaika4@gmail.com</p>
+                        <p style="margin: 8px 0; font-size: 0.9rem;">📞 <strong>Phone:</strong> +255 680 051 819</p>
+                        <p style="margin: 8px 0; font-size: 0.9rem;">💬 <strong>WhatsApp:</strong> +255 680 051 819</p>
+                    </div>
+
+                    <div style="border: 1px solid #eee; padding: 20px; border-radius: 10px; background: #fff;">
+                        <h4 style="margin: 0 0 10px 0; color: #16213E;">Working Hours</h4>
+                        <p style="margin: 5px 0; font-size: 0.9rem;">Mon - Fri: 08:00 - 17:00</p>
+                        <p style="margin: 5px 0; font-size: 0.9rem;">Sat: 09:00 - 13:00</p>
+                        <p style="margin: 5px 0; font-size: 0.9rem; color: #d9534f; font-weight: bold;">Sun: Closed</p>
+                    </div>
+
+                </div>
+            </div>
+        </fieldset>
+    </article>
+</section>
+<footer>
+    <hr>
+    <p><b>&copy; 2026 AM Network Services. All rights reserved.</b></p><hr>
+</footer>
+
+</body>
+</html>

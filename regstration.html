@@ -1,0 +1,165 @@
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>Customer Information</title>
+</head>
+<style>
+    header {
+        background-color: #1A1A2E;
+        padding: 30px;
+        text-align: center;
+        color: #E9ECEF;
+        font-size: 20;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #1A1A2E;
+    }
+
+    nav {
+        flex: 1 1 250px; 
+        max-width: 300px; 
+        background-color: #16213E;
+        padding: 20px;
+        font-family: Helvetica;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    article {
+        flex: 1 1 400px;
+        padding: 20px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+    }
+
+    footer {
+        background-color: #1A1A2E;
+        padding: 10px;
+        text-align: center;
+        color: #E9ECEF;
+        clear: both;
+    }
+
+    @media (max-width: 768px) {
+        nav {
+            max-width: 100%;
+        }
+        
+        header h4 {
+            font-size: 16px; 
+        }
+    }
+</style>
+
+<body bgcolor="#1A1A2E"> 
+    <header>
+        <hr>
+        <h4>
+            > Register Now<br>  
+            > Don’t miss out! Subscribe to our services and experience the future of technology
+        </h4>
+        <hr>
+    </header>
+
+    <section>
+        <nav>
+            <fieldset style="border: 1px solid rgba(255,255,255,0.2); padding: 15px;">
+                <ul>
+                    <li><p><a href="index.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF; text-decoration: none; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Index</a></p></li>
+                    <li><p><a href="about.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF; text-decoration: none; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">About</a></p></li>
+                    <li><p><a href="services.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF; text-decoration: none; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Services</a></p></li>
+                    <li><p><a href="contact.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: #FFFFFF; text-decoration: none; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Contact</a></p></li>
+                    <hr style="border: 0.5px solid rgba(255,255,255,0.1); margin: 20px 0;">
+                    <p style="color: #A2A8D3; font-size: 14px; line-height: 1.6;">
+                        > Get Started with AM Network Services<br>  
+                        > Create your account and connect with our expert team. Fast, secure, and easy!
+                    </p>
+                    <li>
+                        <a href="regstration.html" style="background-color: #FF9900; color: white; padding: 15px 10px; text-decoration: none; border-radius: 5px; display: block; text-align: center; font-weight: bold; margin-top: 10px;">
+                            Register Today
+                        </a>
+                    </li>
+                </ul>
+            </fieldset>
+        </nav>
+
+        <article>
+            <fieldset style="border: 1px solid #ddd; padding: 25px; border-radius: 8px; background-color: #ffffff; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                <h2 style="color: #16213E; border-bottom: 3px solid #FF9900; display: inline-block; padding-bottom: 5px; text-transform: uppercase; margin-top: 0;">
+                    Create Your Account
+                </h2>
+                <p style="margin-top: 10px; color: #666;">Join AM Network Services today and get access to expert IT solutions.</p>
+
+                <form action="#" method="post" style="margin-top: 25px; display: grid; gap: 20px;">
+            <div style="background: #f4f7f9; padding: 15px; border-radius: 5px;">
+                <label style="font-weight: bold; color: #16213E; display: block; margin-bottom: 10px;">Who are you? (Select one)</label>
+                <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+                    <span><input type="radio" name="role" value="Employee"> Employee</span>
+                    <span><input type="radio" name="role" value="Entrepreneur"> Entrepreneur</span>
+                    <span><input type="radio" name="role" value="Investor"> Investor</span>
+                    <span><input type="radio" name="role" value="Student"> Student</span>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 20px;">
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Full Name:</label>
+                    <input type="text" placeholder="Enter your full name" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Email Address:</label>
+                    <input type="email" placeholder="example@gmail.com" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Phone Number:</label>
+                    <input type="tel" placeholder="+255..." style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Nationality:</label>
+                    <input type="text" placeholder="e.g. Tanzanian" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Date of Birth:</label>
+                    <input type="date" style="width: 100%; padding: 11px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Place of Birth:</label>
+                    <input type="text" placeholder="City or District" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+            </div>
+
+            <div style="margin-top: 10px; display: flex; gap: 15px;">
+                <button type="submit" style="flex: 2; background-color: #FF9900; color: white; border: none; padding: 15px; font-weight: bold; border-radius: 5px; cursor: pointer; font-size: 1rem;">REGISTER ACCOUNT</button>
+                <button type="reset" style="flex: 1; background-color: #eee; color: #333; border: none; padding: 15px; border-radius: 5px; cursor: pointer; font-weight: bold;">RESET</button>
+            </div>
+            
+            <p style="text-align: center; font-size: 0.85rem; color: #888; margin-top: 10px;">By clicking register, you agree to our Terms and Conditions.</p>
+        </form>
+            </fieldset>
+        </article>
+    </section>
+    <footer>
+<hr>
+<p>&copy; 2026 AM Network Services. All rights reserved.</p><hr>
+</footer>
+</body>
+</html>

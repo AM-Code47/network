@@ -1,0 +1,168 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services - AM NETWORK SERVICES</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    header {
+        background-color: #1A1A2E;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap; 
+        background-color: #1A1A2E;
+    }
+
+    nav {
+        flex: 1 1 250px; 
+        background-color: #16213E;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    article {
+        flex: 3 1 400px; 
+        padding: 20px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        min-height: 100vh;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li { margin-bottom: 15px; }
+
+    footer {
+        background-color: #1A1A2E;
+        padding: 15px;
+        text-align: center;
+        color: #E9ECEF;
+        width: 100%;
+    }
+
+    .service-card {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: #f4f7f9;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        flex-wrap: wrap
+    }
+
+    .service-text { flex: 1; min-width: 250px; }
+
+    .service-images { display: flex; gap: 10px; }
+
+    .service-images img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    @media (max-width: 768px) {
+        header h1 { font-size: 35px !important; }
+        .service-card { text-align: center; justify-content: center; max-width: 100%; }
+        .service-images { justify-content: center; width: 100%; }
+    }
+</style>
+</head>
+<body bgcolor="#1A1A2E">
+
+<header>
+    <hr>
+    <h1 style="background-color:rgb(228, 192, 144); text-align: center; font-size: 50px; margin: 10px 0; color: #16213E; padding: 10px; border-radius: 5px;">Our Services</h1>
+    <hr>
+</header>
+
+<section>
+    <nav>
+        <fieldset style="border: 1px solid rgba(255,255,255,0.2); color: white;">
+            <ul>
+                <li><a href="index.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: white; text-decoration: none; font-size: 20px; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Index</a></li>
+                <li><a href="about.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: white; text-decoration: none; font-size: 20px; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px; ">About</a></li>
+                <li><a href="services.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: white; text-decoration: none; font-size: 20px; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Services</a></li>
+                <li><a href="contact.html" style="transform: translateY(5px); box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); display: block; color: white; text-decoration: none; font-size: 20px; font-weight: bold; border-left: 3px solid #FF9900; padding-left: 10px;">Contact</a></li>
+                <hr style="border: 0.5px solid rgba(255,255,255,0.1); margin: 20px 0;">
+                <p style="font-size: 14px; color: #A2A8D3;">> Create your account and connect with our expert team.</p>
+                <li><a href="regstration.html" style="background-color: #FF9900; color: white; padding: 12px; text-decoration: none; border-radius: 5px; display: block; text-align: center; font-weight: bold;">Register Today</a></li>
+            </ul>
+        </fieldset>
+    </nav>
+
+    <article>
+        <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 5px;">
+            <h2 style="color: #16213E; border-bottom: 3px solid #FF9900; display: inline-block; padding-bottom: 5px; text-transform: uppercase;">Our Professional IT Solutions</h2>
+            <p style="margin: 15px 0; color: #555;">High-quality IT solutions tailored to your specific needs:</p>
+
+            <div class="service-card" style="border-left: 6px solid #FF9900;">
+                <div class="service-text">
+                    <h3 style="color: #16213E; margin-top: 0;">1. Network Design & Installation</h3>
+                    <p style="color: #333; font-size: 0.95rem;">Wired and wireless network systems for offices and businesses ensuring seamless connectivity.</p>
+                </div>
+                <div class="service-images">
+                    <img src="design.jpg" alt="Design">
+                    <img src="images.jpg" alt="Installation">
+                </div>
+            </div>
+
+            <div class="service-card" style="border-left: 6px solid #16213E;">
+                <div class="service-text">
+                    <h3 style="color: #16213E; margin-top: 0;">2. IT Support & Maintenance</h3>
+                    <p style="color: #333; font-size: 0.95rem;">Proactive maintenance to keep your servers and systems running with minimal downtime.</p>
+                </div>
+                <div class="service-images">
+                    <img src="support.jpg" alt="Support">
+                    <img src="maintainence.jpg" alt="Maintenance">
+                </div>
+            </div>
+
+            <div class="service-card" style="border-left: 6px solid #FF9900;">
+                <div class="service-text">
+                    <h3 style="color: #16213E; margin-top: 0;">3. Website Design & Development</h3>
+                    <p style="color: #333; font-size: 0.95rem;">Modern, responsive websites to enhance your professional online presence.</p>
+                </div>
+                <div class="service-images">
+                    <img src="web(2).jpg" alt="Web">
+                    <img src="web.jpg" alt="Web">
+                </div>
+            </div>
+
+            <div class="service-card" style="border-left: 6px solid #16213E;">
+                <div class="service-text">
+                    <h3 style="color: #16213E; margin-top: 0;">4. CCTV & Security Systems</h3>
+                    <p style="color: #333; font-size: 0.95rem;">Expert surveillance installation for residential and commercial security.</p>
+                </div>
+                <div class="service-images">
+                    <img src="cctv.jpg" alt="CCTV">
+                    <img src="cctv(2).jpg" alt="CCTV">
+                </div>
+            </div>
+        </fieldset>
+    </article>
+</section>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 AM Network Services. All rights reserved.</p><hr>
+</footer>
+
+</body>
+</html>
